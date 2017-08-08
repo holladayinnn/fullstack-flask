@@ -6,7 +6,7 @@
             <p>Name:</p>
             <input type='text' size='30' name='name' placeholder="{{menu_id.name}}">
             <input type='submit' value='Edit'>
-            <a href='{{url_for("editMenuItem", restaurant_id = restaurant.id, menu_id = menu_id) }}'>cancel</a>
+            <a href="{{url_for('menu')}">cancel</a>
         </form>
     </body>
 </html>
